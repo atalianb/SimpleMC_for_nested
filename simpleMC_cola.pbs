@@ -3,7 +3,7 @@
 #PBS -M atalia.navarro.boullosa@gmail.com
 #PBS -m abe
 #Nombre del trabajo
-#PBS -N simpleMC_ESO140_fast
+#PBS -N simpleMC_U11557_fast
 #Archivos de salida
 #PBS -j oe
 #
@@ -38,7 +38,7 @@ echo       SALIDA
 echo =====================
 
 #Inicia trabajo
-python test.py > log_test.out
+python test.py
 
 #Termina trabajo
 echo ==================
