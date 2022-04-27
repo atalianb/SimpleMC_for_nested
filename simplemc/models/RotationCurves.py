@@ -33,7 +33,7 @@ class RotationCurves():
         self.phi2 = phi2_par.value
 
         data_path = "simplemc/data/Blok_McGaugh_&_Rubin_(2001)/"
-        data = np.loadtxt(data_path+'U11557.dat')
+        data = np.loadtxt(data_path+'ESO4880049.dat')
         self.vecRp_data = np.array([row[1] for row in data])
 
     # my free params (parameters/priors see ParamDefs.py)
