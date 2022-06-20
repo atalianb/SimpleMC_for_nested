@@ -41,5 +41,5 @@ class RotationCurvesLikelihood(BaseLikelihood):
 
 class RotationCurvesLike(RotationCurvesLikelihood):
     def __init__(self):
-        RotationCurvesLikelihood.__init__(self,"RotCurves","simplemc/data/data_used_by_Tula/F730-V1.dat",
-            "simplemc/data/F730-V1-cov.txt")
+        RotationCurvesLikelihood.__init__(self,"RotCurves","simplemc/data/data_used_by_Tula/ESO4250180.dat",
+            "simplemc/data/ESO4250180-cov.txt")
