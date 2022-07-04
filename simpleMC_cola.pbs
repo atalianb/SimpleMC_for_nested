@@ -3,14 +3,14 @@
 #PBS -M atalia.navarro.boullosa@gmail.com
 #PBS -m abe
 #Nombre del trabajo
-#PBS -N simpleMC_ESO4250180_fast_500lp_3nodes
+#PBS -N simpleMC_ESO3020120_500lpf_2phi
 #Archivos de salida
 #PBS -j oe
 #
 #Cola de ejecucion (-q cola)
 #PBS -q mpi
 #Recursos solicitados(nodos,cpus,mem,etc)
-#PBS -l nodes=3:ppn=54
+#PBS -l nodes=2:ppn=54
 
 #Cargar y/o definir entorno
 ./miniconda3/bin/python

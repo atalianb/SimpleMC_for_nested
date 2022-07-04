@@ -15,10 +15,10 @@ h = 0.01
 ######
 #Shooting values
 ####
-u0 = -1.5
-u1 = -0.5#1.2# 1st trial value of unknown init. cond. gamma_100
-u2 = -0.4#2.7# 2nd trial value of unknown init. cond. gamma_210
-u3 = -1.9#4.9# 3th trial value of unknown init. cond. gamma_320
+u0 = 1.5
+u1 = 2.58#-0.5#1.2# 1st trial value of unknown init. cond. gamma_100
+u2 = 3.65#-0.4#2.7# 2nd trial value of unknown init. cond. gamma_210
+u3 = 4.65#-1.9#4.9# 3th trial value of unknown init. cond. gamma_320
 u_012_V = np.array([u0,u1, u2,u3])
 #####
 #data_path ="simplemc/data/Blok_McGaugh_&_Rubin_(2001)/" #"simplemc/data/data_used_by_Tula/"
