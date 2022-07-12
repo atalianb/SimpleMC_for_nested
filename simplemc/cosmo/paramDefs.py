@@ -160,9 +160,9 @@ wq_par = Parameter("wq",  -0.9, 0.05, (-1.0, -0.5), "w_q")
 #Anfw->m_a,rs->eps0
 Anfw_par = Parameter("Anfw",  np.log10(6.81e-24), 0.01, (np.log10(1.0e-26), np.log10(1.0e-20)), "A_s")
 rs_par =   Parameter("rs",  np.log10(3.69e-4), 0.01, (np.log10(1.0e-6), np.log10(1.0e-2)), "r_s")
-phi0_par =   Parameter("phi0",  np.log10(1.0), 0.01, (np.log10(0.00001), np.log10(2.0)), "phi0")
-phi1_par =   Parameter("phi1",  np.log10(2.02e-4), 0.01, (np.log10(0.000001), np.log10(2.0)), "phi1")
-phi2_par =   Parameter("phi2",  np.log10(1.25e-1), 0.01, (np.log10(0.000001), np.log10(2.0)), "phi2")
+phi0_par =   Parameter("phi0",  np.log10(1.0), 0.01, (np.log10(0.00001), np.log10(3.0)), "phi0")
+phi1_par =   Parameter("phi1",  np.log10(2.02e-4), 0.01, (np.log10(0.000001), np.log10(1.5)), "phi1")
+phi2_par =   Parameter("phi2",  np.log10(1.25e-1), 0.01, (np.log10(0.000001), np.log10(1.5)), "phi2")
 # Restrained DE.
 weff_par      = Parameter("weff", -1.0, 0.02, (-1., 0.), "w_{eff}")
 wcpl_par      = Parameter("wcpl", 0.0, 0.03, (0, 0.5), "w_{cpl}")

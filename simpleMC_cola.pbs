@@ -3,7 +3,7 @@
 #PBS -M atalia.navarro.boullosa@gmail.com
 #PBS -m abe
 #Nombre del trabajo
-#PBS -N simpleMC_ESO3020120_500lpf_2phi
+#PBS -N simpleMC_ESO3020120_500lpf_2phi_2
 #Archivos de salida
 #PBS -j oe
 #
